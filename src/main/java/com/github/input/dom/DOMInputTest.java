@@ -11,6 +11,7 @@ import java.io.IOException;
 public class DOMInputTest {
 
     public static void main(String[] args) {
+        // DOM 方式解析 XML 步骤：
         // 1. 准备工作
         // 1.1 创建一个 DocumentBuilderFactory 的对象
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -77,11 +78,7 @@ public class DOMInputTest {
             }
 
 
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
 
