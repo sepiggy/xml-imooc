@@ -8,7 +8,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
-public class DOMInputTest {
+class DOMInputTest {
 
     public static void main(String[] args) {
         // DOM 方式解析 XML 步骤：

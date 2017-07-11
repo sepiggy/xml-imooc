@@ -7,7 +7,8 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 
-public class SAXInputTest {
+// SAX 方式解析 xml 文件
+class SAXInputTest {
 
     public static void main(String[] args) {
         // SAX 方式解析 XML 步骤：
